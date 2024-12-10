@@ -3,3 +3,18 @@ body{
     width: 100vw;
     height: 100vh;
 }
+
+.sunny{
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.termostat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
