@@ -15,6 +15,8 @@ body{
 
 .weather{
     margin-left: 900px;
+    width: 10px;
+    height: 10px;
     
 }   
 
@@ -75,4 +77,33 @@ h1{
    margin-left: 20px;
    align-items: center;
    }
+
+/* .icon_air{
+    margin-left: 100px;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.icon_down{
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 50px;
+    height: 50px;
+} */
+
+.icon_up{
+    margin-left: 100px;
+    margin-top: 150px;
+    width: 10px;
+    height: 10px;
+    
+}
+
+.icon_low{
+    margin-left: 500px;
+    margin-bottom: 600px;
+    width: 10px;
+    height: 10px;
+}
 
