@@ -1,47 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Погода</title>
 </head>
+
 <body>
-    <div class="sunny">
-        <div class="searchs">
-            <input type="text" placeholder="enter the city...">
-            <div class="btn_search">
-                <img src="img/search.png" alt="">
+    <div class="wrapper">
+        <div class="header-info">
+            <div class="city-block">
+                <div class="search-box">
+                    <input type="text" class="search-txt" placeholder="Enter city name...">
+                    <button class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+                <div class="location">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="city">Storozhynets</span>
+                </div>
+            </div>
+            <div class="current__temperature">
+                <div class="temperature__current">
+                    <span class="temp">19</span>
+                    <span class="deg">°C</span>
+                </div>
             </div>
         </div>
-
-        <div class = "local">
-            <h1>Storozhynets</h1>
-            <div class="number">19°</div>
-        </div>
-        
-            <!-- <div class="icon_air">
-                <img src="img/air.png" alt="">
-            </div> -->
-            
-            <!-- <div class="icon_down" alt="">
-                <img src="img/thermostat_arrow_down.png" alt="">
-            </div>   -->
-
-            <div class="icon_low">  
-                <img src="img/humidity_low.png" alt="">
+        <div class="weather-block">
+            <div class="weather__grid">
+                <div class="wind__info info">
+                    <img src="img/air.png" alt="" class="wind__image">
+                    <span>7km</span>
+                </div>
+                <div class="humidity__info info">
+                    <img src="img/humidity_low.png" alt="" class="wind__image">
+                    <span>94%</span>
+                </div>
+                <div class="temperature__min info">
+                    <img src="img/temperature__min.png" alt="" class="wind__image">
+                    <span>10 °C</span>
+                </div>
+                <div class="temperature__max info">
+                    <img src="img/temperature__max.png" alt="" class="wind__image">
+                    <span>20 °C</span>
+                </div>
             </div>
-
-            <div class="icon_up">  
-                <img src="img/thermostat_arrow_up.png" alt="">
-            </div>
-
-            <div class="weather">
+            <div class="weather__icon">
                 <img src="img/partly_cloudy_day.png" alt="">
             </div>
+        </div>
+        <div class="sun">
+            <img src="img/sunny.png" alt="" class="sun-image">
+        </div>
     </div>
-
-
-
 </body>
+
 </html>
