@@ -30,8 +30,8 @@ async function checkWeather(city) {
     document.querySelector('.temp').innerHTML = Math.round(data.main.temp);
     document.querySelector('.humidity').innerHTML = data.main.humidity + "%";
     document.querySelector('.wind_speed').innerHTML = Math.round(data.wind.speed) + "km/h";
-    document.querySelector('.temperature_up').innerHTML = Math.round(data.main.temp_max) + '°C';
-    document.querySelector('.temperature_down').innerHTML = Math.round(data.main.temp_min) + '°C';
+    document.querySelector('.temperature__up').innerHTML = Math.round(data.main.temp_max) + '°C';
+    document.querySelector('.temperature__down').innerHTML = Math.round(data.main.temp_min) + '°C';
     
     
     if (data.weather[0].main == "Rain") {
